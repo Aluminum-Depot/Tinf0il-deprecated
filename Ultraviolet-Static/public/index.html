@@ -36,6 +36,18 @@
             height: 60px;
             margin-right: 10px;
         }
+
+        .visible {
+           display: none;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+          .visible {
+             display: block !important; /* fixed */
+             color: #fff !important;
+          }
+         }
     </style>
 </head>
 <body>
@@ -58,5 +70,9 @@
           </div>
         </div>
       </nav>  
+
+      <div class="d-flex" style="justify-content: center; align-items: center;">
+        <h1 class="visible">Sorry, Tinf0il is not supported for mobile devices yet :(</h1>
+      </div>
 </body>
 </html>

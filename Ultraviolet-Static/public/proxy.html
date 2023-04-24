@@ -22,7 +22,7 @@
     />
     <meta
       name="keywords"
-      content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked"
+      content="proxy, web proxy, tinf0il, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked"
     />
     <meta
       name="theme-color"
@@ -94,10 +94,23 @@
       }
 
       .navbar-brand {
+          /* border-radius: 50%; */
           width: 60px;
           height: 60px;
           margin-right: 10px;
       }
+
+      .visible {
+         display: none;
+      }
+
+
+      @media only screen and (max-width: 600px) {
+        .visible {
+           display: block !important; /* fixed */
+           color: #fff !important;
+        }
+       }
   </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2865967907877238"
      crossorigin="anonymous"></script>
@@ -107,8 +120,10 @@
 
   <!-- Navigation bar bruh -->
 
-  <nav class="navbar p-2 navbar-expand-lg navbar-light bg-light" style="">
-    <img class="navbar-brand" src="foil.png" alt="our logo" style="width: 60px; height: 70px;" />
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+        <img src="foil.png" alt="our logo" style="width: 100%; height: 100%; object-fit: contain;">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -127,10 +142,10 @@
 
 <section class="different">
     <div
-      title="Ultraviolet Logo"
+      title="Tinf0il Logo"
       class="flex-center logo-wrapper header-center"
     >
-      <img class="logo" src="uv.png" alt="Ultraviolet Logo" />
+      <img class="logo" src="uv.png" alt="Tinf0il Logo" />
       <h1>Tinf0il</h1>
     </div>
     <div class="flex-center desc">
@@ -151,33 +166,6 @@
       <p id="uv-error"></p>
       <pre id="uv-error-code"></pre>
     </div>
-    <footer>
-      <a
-        title="The TitaniumNetwork GitHub organization"
-        href="https://github.com/titaniumnetwork-dev"
-        >Tinf0il</a
-      >
-      <a title="The TitaniumNetwork Discord" href="https://discord.gg/unblock"
-        >Discord</a
-      >
-      <a
-        title="The TompHTTP GitHub organization"
-        href="https://github.com/tomphttp"
-        >TompHTTP</a
-      >
-      <a
-        title="The official deployment repository for Ultraviolet"
-        href="https://github.com/titaniumnetwork-dev/Ultraviolet-App"
-        >GitHub</a
-      >
-      <a
-        title="License information"
-        href="credits.html"
-        style="margin-left: auto"
-        >Credits</a
-      >
-      <span>Tinfoil &copy; Aluminum Depot 2023</span>
-    </footer>
 
   </section>
   </body>

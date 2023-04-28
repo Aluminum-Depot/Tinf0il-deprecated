@@ -27,7 +27,10 @@
     rel="stylesheet"/>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/hover.css">
+    <link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
     <style>
         .navbar {
             position: fixed;
@@ -44,12 +47,46 @@
             height: 60px;
             margin-right: 10px;
         }
+        body, html {
+    height: 100vh;
+  }
+
+  #list {
+    margin-bottom: 30px;
+  }
+
+  .text {
+    width: 600px;
+    text-align: center;
+  }
+
+  #homepage-cards {
+    gap: 15px;
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+    margin-top: 65px !important;
+
+  } 
+
+
+  h4 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+
+
+
+  
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2865967907877238"
      crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
+ <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">
         <img src="foil.png" alt="our logo" style="width: 100%; height: 100%; object-fit: contain;">
     </a>
@@ -67,6 +104,65 @@
         <a class="nav-item nav-link active" href="about.html"><i class="fa-solid fa-question"></i> About</i></a>
       </div>
     </div>
-  </nav>  
+  </nav> 
+  <h1>Games</h1>
+  
+
+  <div style="width: 100vw; display: flex; flex-direction: column; justify-content: center; align-items: center;"> 
+    <input type="text" class="text" id="search" placeholder="Search" style="margin-top: 5rem;"/>
+  </div>
+
+  <div id="homepage-cards"></div>
+
+  </div>
+  
+  <script src="data/games.js"></script>
+  <script src="js/script.js"></script>
+  
+  <script>
+    games.forEach(game => {
+      var card = document.createElement("div")
+      var image = document.createElement("img")
+      var text = document.createElement("h4")
+      var descrip = document.createElement("p")
+      descrip.classList.add("description")
+      card.classList.add("card")
+      
+      if (game.image) image.src = game.image
+      if (!game.image) image.src = "https://www.pngkey.com/png/full/167-1670247_white-globe-icon-png-holy-bible-new-international.png"
+      if (game.description) descrip.innerHTML = game.description
+      image.loading = "lazy"
+      text.innerHTML = game.title
+      card.appendChild(image)
+      card.appendChild(text)
+      //card.appendChild(descrip)
+      document.querySelector("#homepage-cards").appendChild(card)
+      
+      //card.classList.add(`hvr-${effects[Math.floor(Math.random() * effects.length)]}`)
+      card.classList.add("hvr-bob")
+      card.addEventListener("click", () => {
+
+        if (game.id == "customgame") return loadcustomgame() 
+        window.location.href = `/load.html?game=${game.id}`
+      })
+    })
+
+    const searchInput = document.querySelector('#search');
+    const items = document.querySelectorAll('.card');
+    
+    searchInput.addEventListener('input', function(event) {
+      const query = event.target.value.toLowerCase();
+      
+      items.forEach(function(item) {
+        const title = item.querySelector('.card h4').textContent.toLowerCase();
+        
+        if (title.includes(query)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  </script>
 </body>
 </html>

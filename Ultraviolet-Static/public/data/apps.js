@@ -2,7 +2,7 @@ var apps = [
     {
       'id': 'customapp',
       'title': 'Add custom app',
-      'image': 'assets/addicon.png'
+      'image': 'addicon.png'
     },
     {
       "id": "google",

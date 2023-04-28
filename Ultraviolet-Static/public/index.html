@@ -64,6 +64,7 @@
     </style>
 </head>
 <body>
+  <script src="data/splashtexts.js"></script>
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
             <img src="foil.png" alt="our logo" style="width: 100%; height: 100%; object-fit: contain;">
@@ -101,8 +102,13 @@
     <div></div>
     <br>
     <iframe width="450" height="175" src="https://alienhubadvertisement.tinf0il.tech/uv/service/hvtrs8%2F-hwb%2Canignju%60.zyx%2Fqhmw%3Duvm%5Dmgdkuo%3Doiqc" title="Alienhub Ad"></iframe>
+    <p style="color: #fff;" id="splashtext"></p>
 </div>
 </div>
+
+<script>
+  document.querySelector("#splashtext").innerHTML = splashtexts[Math.floor(Math.random() * splashtexts.length)];
+</script>
 
 <!-- stats - count particles -->
 <div class="count-particles">

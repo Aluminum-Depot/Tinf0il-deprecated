@@ -208,7 +208,7 @@ var games = [
     {
       'id': 'breakingthebank',
       'title': 'Henry Stickmin: Breaking the Bank',
-      'url': 'https://artclass-assets.vercel.app/breakingthebank/index.html',
+      'url': 'https://advanced-channeler.02.gz-associates.com/?s=?url%3D%252Fflash%252FHenryStick_BreakingTheBank.swf&t=tam-flash-ruffle',
       'image': 'https://play-lh.googleusercontent.com/I9aDLwmiy5iSjeUPs5IDI3lam8iWZ1zVnLF-V_EGvClOLuccjwLNNjZ8xltu4AN60io'
     },
     {

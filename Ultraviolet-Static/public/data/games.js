@@ -196,13 +196,13 @@ var games = [
     {
       'id': 'fleeingthecomplex',
       'title': 'Henry Stickmin: Fleeing the Complex',
-      'url': 'https://artclass-assets.vercel.app/fleeingthecompound/index.html',
-      'image': 'https://play-lh.googleusercontent.com/RDk8BpHUESL9J4H-s-07ZC1sNJol8-aZEzz3OEA99PxTYnsZd8038Y-0wRMpCQKDssU'
+      'url': 'https://isgames.github.io/Complex/',
+      'image': 'https://g.vseigru.net/14/igra-stikmen-pobeg-iz-kompleksa/'
     },
     {
       'id': 'infiltratingtheairship',
       'title': 'Henry Stickmin: Infiltrating the Airship',
-      'url': 'https://artclass-assets.vercel.app/infiltratingtheairship/index.html',
+      'url': 'https://g.vseigru.net/14/igra-stikmen-dirizhabl/',
       'image': 'https://play-lh.googleusercontent.com/bRVIDUSlmkDM9ZA9xLczm-PuUa0dYPupAG2ZVNXJvCITc3ZkO7PS-t0qKX1T--7f5-k=w240-h480-rw'
     },
     {

@@ -101,12 +101,18 @@
     <br>
     <div></div>
     <br>
-    <iframe width="450" height="175" src="https://alienhubadvertisement.tinf0il.tech/uv/service/hvtrs8%2F-hwb%2Canignju%60.zyx%2Fqhmw%3Duvm%5Dmgdkuo%3Doiqc" title="Alienhub Ad"></iframe>
+    <iframe id="alienhub_ad" width="455" height="155" style="border: none; overflow: none"></iframe>
     <p style="color: #fff;" id="splashtext"></p>
 </div>
 </div>
 
 <script>
+ navigator.serviceWorker.register('loadsw.js', {
+      scope: __uv$config.prefix
+    }).then(() => {
+      document.querySelector("#alienhub_ad").src = __uv$config.prefix + __uv$config.encodeUrl("https://hub.alienhub.xyz/show?utm_medium=misc");
+    });
+
   document.querySelector("#splashtext").innerHTML = splashtexts[Math.floor(Math.random() * splashtexts.length)];
 </script>
 

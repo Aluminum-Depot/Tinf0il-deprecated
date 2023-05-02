@@ -197,7 +197,7 @@ var games = [
       'id': 'fleeingthecomplex',
       'title': 'Henry Stickmin: Fleeing the Complex',
       'url': 'https://isgames.github.io/Complex/',
-      'image': 'https://g.vseigru.net/14/igra-stikmen-pobeg-iz-kompleksa/'
+      'image': 'play-lh.googleusercontent.com/RDk8BpHUESL9J4H-s-07ZC1sNJol8-aZEzz3OEA99PxTYnsZd8038Y-0wRMpCQKDssU'
     },
     {
       'id': 'infiltratingtheairship',

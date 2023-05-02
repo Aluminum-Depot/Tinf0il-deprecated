@@ -158,8 +158,8 @@ var games = [
     },
     {
       'id': 'minecraft',
-      'title': 'Minecraft Classic',
-      'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/minecraft-classic/index.html',
+      'title': 'Minecraft (Eaglercraft)',
+      'url': 'https://eaglercraft.ru/mc/1.8.8/',
       'image': 'https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png'
     },
     {

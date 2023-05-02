@@ -101,18 +101,14 @@
     <br>
     <div></div>
     <br>
-    <iframe id="alienhub_ad" width="455" height="155" style="border: none; overflow: none"></iframe>
+    <a href="https://alienhub.xyz/?utm_campaign=b1ce89ac-a001-4988-a325-db4cbc34a647&utm_medium=misc" id="AlienR">
+      <img id="alienImg" src="https://alienhub.xyz/images/ad-a0ba857c-6c42-4fbf-bd3f-dd40f40c6784.gif" alt="AlienImg">
+      </a>
     <p style="color: #fff;" id="splashtext"></p>
 </div>
 </div>
 
 <script>
- navigator.serviceWorker.register('loadsw.js', {
-      scope: __uv$config.prefix
-    }).then(() => {
-      document.querySelector("#alienhub_ad").src = __uv$config.prefix + __uv$config.encodeUrl("https://hub.alienhub.xyz/show?utm_medium=misc");
-    });
-
   document.querySelector("#splashtext").innerHTML = splashtexts[Math.floor(Math.random() * splashtexts.length)];
 </script>
 

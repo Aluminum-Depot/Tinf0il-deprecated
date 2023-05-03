@@ -2,7 +2,7 @@
 
 <h1 align="center">Tinf0il</h1>
 
-Tinf0il is the fastest web pr0xy for Windows devices!
+Tinf0il is the fastest web proxy for Windows devices!
 
 ## Deployment
 

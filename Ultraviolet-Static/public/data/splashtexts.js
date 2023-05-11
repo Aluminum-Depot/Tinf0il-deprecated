@@ -3,7 +3,6 @@ var splashtexts = [
     "do your homework",
     "why does this exist",
     "who am I anymore",
-    "minecraft was the best game",
     "I give up",
     "Citrik is a real one",
     "what are friends?",
@@ -27,5 +26,8 @@ var splashtexts = [
     ":moai:",
     "pretend this is funny",
     "Don't drink windex",
-    "You are dreaming",
+    "Turn around, slowly",
+    "Join the Aluminum Depot for Windows exploits",
+    "Join the Discord for Windows exploits",
+    "Click the middle button!",
 ]

@@ -4,6 +4,6 @@
 
 Tinf0il is the fastest web proxy for Windows devices!
 
-## Deployment
+## Visit site
 
 [![Start unblocking now!](https://github.com/Aluminum-Depot/Tinf0il/blob/main/button.svg)](https://tinf0il.tech)

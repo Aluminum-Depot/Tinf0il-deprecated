@@ -36,7 +36,7 @@ var games = [
       'title': 'osu!',
       'description': 'A web version of osu!',
       'url': 'https://web-osu.github.io/',
-      'image': 'https://logos-world.net/wp-content/uploads/2022/02/Osu-Logo-2018.png',
+      'image': 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeDPB6cNi865GRMnMqXzxNHqmYJ5fSm09Yr_8kyWQnjD9_PTuH',
     },
     {
       'id': 'cuttherope',
@@ -239,7 +239,7 @@ var games = [
       'id': 'geometrydash',
       'title': 'Geometry Dash',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/geodash/index.html',
-      'image': 'https://static.wikia.nocookie.net/logopedia/images/4/41/Geometry_Dash_Icon.svg/revision/latest?cb=20220220121501'
+      'image': 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRIliRz-2X9ysEbRTRCr_Ujhl5nCiHgKKW6XjGMMqPvIlksny89'
     },
     {
       'id': 'idlecraft',
@@ -269,7 +269,7 @@ var games = [
       'id': 'doodlejump',
       'title': 'Doodle Jump',
       'url': 'https://upload.wikimedia.org/wikipedia/en/a/ac/Doodle_jump_icon.png',
-      'image': 'https://static.wikia.nocookie.net/logopedia/images/d/db/Doodle_Jump_%28Icon%29.png/revision/latest?cb=20221127201034'
+      'image': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSxFRG0SAP7DzDiCiCBiVZLXXIAHxSJdkzjoqjfnwVKQa1Hn4o1'
     },
     {
       'id': 'cookieclicker',
@@ -311,7 +311,7 @@ var games = [
       'id': 'btd4',
       'title': 'Bloons TD 4',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/d1a97cbddcf69b15adf2ab4a491df717ecf22938/btd4/index.html',
-      'image': 'https://static.wikia.nocookie.net/b__/images/8/81/BTD4_iOS_Icon.png/revision/latest?cb=20130102105914&path-prefix=bloons'
+      'image': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNGbnI6RS69KdeaYDFjjxukUb6mJtmyEh5O18NfbvA90LuaJVI'
     },
     {
       'id': 'ovo',

@@ -36,7 +36,7 @@ var games = [
       'title': 'osu!',
       'description': 'A web version of osu!',
       'url': 'https://web-osu.github.io/',
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png',
+      'image': 'https://logos-world.net/wp-content/uploads/2022/02/Osu-Logo-2018.png',
     },
     {
       'id': 'cuttherope',
@@ -54,7 +54,7 @@ var games = [
       'id': 'papaburgers',
       'title': 'Papa\'s Burgeria',
       'url': 'https://mazahacka2017.github.io/papas-burgeria',
-      'image': 'https://i.flipline.com/gamefiles/papasburgeriatogo/app_upsell_C.jpg'
+      'image': 'https://cdn2.steamgriddb.com/file/sgdb-cdn/icon_thumb/ca529f0fe8b0c42a40d52288a30bd915.png'
     },
     {
       'id': 'papasicecream',
@@ -92,13 +92,13 @@ var games = [
       'id': 'fnf',
       'title': 'Friday Night Funkin',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/fridaynightfunkin/index.html',
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Boyfriend-2.png/250px-Boyfriend-2.png'
+      'image': 'https://image.spreadshirtmedia.com/image-server/v1/designs/1037919514,width=178,height=178.png'
     },
     {
       'id': 'paperio2',
       'title': 'Paper.io 2',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/paperio2/index.html',
-      'image': 'https://paperio2.online/upload/imgs/options/fav.jpg'
+      'image': 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSK4PSwPySjJi26ilZMiNG_L6U6DuAcyhvR3Z99p49Mil7AoVz'
     },
     {
       'id': 'impossiblequiz',
@@ -166,7 +166,7 @@ var games = [
       'id': 'smashkarts',
       'title': 'Smash Karts',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/d108460237587095c92fe0968f1595f30cf5a5cc/smashkarts/index.html',
-      'image': 'https://geometry-dash.co/upload/imgs/smash-karts-logo.png'
+      'image': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYpmONss-D1HagIIvGp6wum9fe7zH9b8YBK0YUiovuIQ0NVzxD'
     },
     {
       'id': 'roblox',
@@ -178,7 +178,7 @@ var games = [
       'id': 'tunnelrush',
       'title': 'Tunnel Rush',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e00403015397cb588f42d3a461b5ac9503dd7c2d/tunnel-rush/index.html',
-      'image': 'https://images.hellokids.com/_uploads/_tiny_galerie/20180415/vign-tunnel-rush-hk-w8v_u89.jpg',
+      'image': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSksrwYxOq3QJiSVA3GbbAsbcn8FRpw2_MZGFfuiMTL68_qrJqL',
     },
     {
       'id': 'fireandice',
@@ -189,25 +189,25 @@ var games = [
     },
     {
       'id': 'escapeprison',
-      'title': 'Henry Stickmin: Escaping the Prison',
+      'title': 'Escaping the Prison',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/escapingtheprison/index.html',
       'image': 'https://play-lh.googleusercontent.com/MKW0yzbpA-faDMztP2xkirlXsHwL7QutC_9VyQlbr4VTbPOyCZInL7zYG9EA4XpX4mtM'
     },
     {
       'id': 'fleeingthecomplex',
-      'title': 'Henry Stickmin: Fleeing the Complex',
+      'title': 'Fleeing the Complex',
       'url': 'https://isgames.github.io/Complex/',
-      'image': 'play-lh.googleusercontent.com/RDk8BpHUESL9J4H-s-07ZC1sNJol8-aZEzz3OEA99PxTYnsZd8038Y-0wRMpCQKDssU'
+      'image': 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStHmK99zAGH_PYCVkAAJVtUQYAJHHmeuq4o0UkgwTsAgX9JJCL'
     },
     {
       'id': 'infiltratingtheairship',
-      'title': 'Henry Stickmin: Infiltrating the Airship',
+      'title': 'Infiltrating the Airship',
       'url': 'https://g.vseigru.net/14/igra-stikmen-dirizhabl/',
       'image': 'https://play-lh.googleusercontent.com/bRVIDUSlmkDM9ZA9xLczm-PuUa0dYPupAG2ZVNXJvCITc3ZkO7PS-t0qKX1T--7f5-k=w240-h480-rw'
     },
     {
       'id': 'breakingthebank',
-      'title': 'Henry Stickmin: Breaking the Bank',
+      'title': 'Breaking the Bank',
       'url': 'https://advanced-channeler.02.gz-associates.com/?s=?url%3D%252Fflash%252FHenryStick_BreakingTheBank.swf&t=tam-flash-ruffle',
       'image': 'https://play-lh.googleusercontent.com/I9aDLwmiy5iSjeUPs5IDI3lam8iWZ1zVnLF-V_EGvClOLuccjwLNNjZ8xltu4AN60io'
     },
@@ -239,7 +239,7 @@ var games = [
       'id': 'geometrydash',
       'title': 'Geometry Dash',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/geodash/index.html',
-      'image': 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG'
+      'image': 'https://static.wikia.nocookie.net/logopedia/images/4/41/Geometry_Dash_Icon.svg/revision/latest?cb=20220220121501'
     },
     {
       'id': 'idlecraft',
@@ -269,7 +269,7 @@ var games = [
       'id': 'doodlejump',
       'title': 'Doodle Jump',
       'url': 'https://upload.wikimedia.org/wikipedia/en/a/ac/Doodle_jump_icon.png',
-      'image': 'https://assets-prd.ignimgs.com/2022/03/16/doodlejump-1647405974576.jpg'
+      'image': 'https://static.wikia.nocookie.net/logopedia/images/d/db/Doodle_Jump_%28Icon%29.png/revision/latest?cb=20221127201034'
     },
     {
       'id': 'cookieclicker',
@@ -311,7 +311,7 @@ var games = [
       'id': 'btd4',
       'title': 'Bloons TD 4',
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/d1a97cbddcf69b15adf2ab4a491df717ecf22938/btd4/index.html',
-      'image': 'https://assets-prd.ignimgs.com/2022/08/16/bloons-td4-button-1660612386362.jpg'
+      'image': 'https://static.wikia.nocookie.net/b__/images/8/81/BTD4_iOS_Icon.png/revision/latest?cb=20130102105914&path-prefix=bloons'
     },
     {
       'id': 'ovo',

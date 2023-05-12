@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
 }
 
+:root {
+   overflow-y: hidden;
+}
+
 .glow-on-hover {
   width: 220px;
   height: 50px;

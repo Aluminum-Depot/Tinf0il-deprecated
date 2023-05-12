@@ -27,7 +27,7 @@ var apps = [
       'id': 'vscode',
       'title': 'Visual Studio Code',
       'url': 'https://vscode.dev/',
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png'
+      'image': 'https://images-eds-ssl.xboxlive.com/image?url=Q_rwcVSTCIytJ0KOzcjWTYtI_MIrVq4WfN7M.qN7gV3ayNiQeJK6Uxg366DH3bnRmVWMFBWWyXonVyp6x0RYE1elb_jkQQQH7FwsNBBqQO4iFrOIwXtaGkMjmrISfBfgMsCEGwIBPArmzCSVWYx1zA--&format=source'
     },
     {
       "id": "tiktok",
@@ -52,7 +52,7 @@ var apps = [
       "id": "youtube",
       "title": "YouTube",
       "url": "https://youtube.com",
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/YouTube_social_red_square_%282017%29.svg/2048px-YouTube_social_red_square_%282017%29.svg.png'
+      'image': 'https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png'
     },
     {
       "id": "twitter",
@@ -64,7 +64,7 @@ var apps = [
       'id': 'spotify',
       'title': 'Spotify',
       'url': 'https://open.spotify.com/browse',
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png'
+      'image': 'https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png'
     },
     {
       'id': 'chess',
@@ -73,10 +73,10 @@ var apps = [
       'image': 'https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png'
     },
     {
-      'id': 'sflix',
-      'title': 'SFlix',
-      'url': 'https://sflix.to',
-      'image': 'https://play-lh.googleusercontent.com/YO-cgAQEdDuX9xvEYNOdPfc0-Nxzvz4vZaIt9eBOWoh2VTPHe8eHX6byn5b94X3gpcI=s200'
+      'id': 'Soap2Day',
+      'title': 'Soap2Day',
+      'url': 'https://soap2day.to',
+      'image': 'https://www.apk20.com/_next/image?url=https%3A%2F%2Fplay-lh.googleusercontent.com%2FJKWLyT-irVA2Muvvv9SEm4EoumdawQat-35nqa3qT0nBhxsPd2GFKQqjNGZ6Ab31u50%3Dh250-rw%3Fcompress&w=640&q=100'
     },
     {
       'id': 'coolmathgames',
@@ -93,9 +93,9 @@ var apps = [
     },
     {
       'id': 'gbaemulator',
-      'title': 'GBA Emulator',
+      'title': 'Game Boy Advance Emulator',
       'url': 'https://cattn.github.io/gba',
-      "image": "https://cattn.github.io/gba/pwa/apple-icon-180.png",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Dyd39CxufwgGFd_xRMfw-FKFUWpJNimH0QVziZ_EFRGyWxeL",
       "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
     }
   ]

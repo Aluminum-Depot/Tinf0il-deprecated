@@ -331,6 +331,12 @@ var games = [
       'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/aquapark-slides/index.html',
       'image': 'https://play-lh.googleusercontent.com/pNI21ILS4I9IAzveYzjbfk5D5LGuL03b0Ea4OtlFRLD_yk7KYLBeLlBmsvhH7Uj-dQn6'
     },
+    {
+      'id': 'agario',
+      'title': 'agar.io',
+      'url': 'https://agar.io',
+      'image': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQF9P7VGEeabiTldpe17vw3R85of7IjFQKxQ85Q7EC6sY3k8cw'
+    },
   ]
   
   var customgames = JSON.parse(localStorage.getItem("customgames"))

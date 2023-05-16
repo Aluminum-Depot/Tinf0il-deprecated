@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://arc.io/widget.min.js#pE44ccsE"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,6 +31,9 @@
     rel="stylesheet"/>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/cloak.js">
+      document.title === (title);
+    </script>
 
     <style>
 
@@ -102,8 +104,9 @@
     <h3 style="font-family: monospace;">Probe the internet privately</h3>
     <br>
     <button onclick="window.location.href='/proxy.html';" class="glow-on-hover" type="button">Start Browsing</button>
-    <button onclick="window.location.href='https://discord.gg/rYWBs6Hezs';" class="glow-on-hover" type="button">Join the Discord</button>
     <button onclick="window.location.href='/games.html';" class="glow-on-hover" type="button">Start Gaming</button>
+    <button class="glow-on-hover" id="blankbtn" onclick="blank()">Open in about:blank</button>
+    <button onclick="window.location.href='https://discord.gg/rYWBs6Hezs';" class="glow-on-hover" type="button">Join the Discord</button>
     <br>
     <div></div>
     <br>
@@ -307,6 +310,23 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+</script>
+<script>
+  if (window.parent.window.location.href == "about:blank") document.getElementById("blankbtn").remove()
+
+function blank() {
+  const tab = window.open('about:blank', '_blank');
+  const iframe = tab.document.createElement('iframe');
+  const stl = iframe.style;
+  stl.border = stl.outline = 'none';
+  stl.width = '100vw';
+  stl.height = '100vh';
+  stl.position = 'fixed';
+  stl.left = stl.right = stl.top = stl.bottom = '0';
+  iframe.src = self.location;
+  tab.document.body.appendChild(iframe);
+  //window.parent.window.location.replace('https://classroom.google.com')
+}
 </script>
 
 </body>

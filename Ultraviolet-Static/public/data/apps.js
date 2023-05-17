@@ -93,7 +93,7 @@ var apps = [
     },
     {
       'id': 'gbaemulator',
-      'title': 'Game Boy Emulator',
+      'title': 'Game Boy Advance Emulator',
       'url': 'https://cattn.github.io/gba',
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Dyd39CxufwgGFd_xRMfw-FKFUWpJNimH0QVziZ_EFRGyWxeL",
       "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"

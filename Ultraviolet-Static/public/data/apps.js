@@ -98,6 +98,12 @@ var apps = [
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Dyd39CxufwgGFd_xRMfw-FKFUWpJNimH0QVziZ_EFRGyWxeL",
       "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
     }
+    {
+      'id': 'snapchat',
+      'title': 'Snapchat',
+      'url': 'https:web.snapchat.com',
+      "image": "https://static.vecteezy.com/system/resources/previews/018/930/694/original/snapchat-logo-snapchat-icon-transparent-free-png.png",
+    }
   ]
   
   var customapps = JSON.parse(localStorage.getItem("customapps"))

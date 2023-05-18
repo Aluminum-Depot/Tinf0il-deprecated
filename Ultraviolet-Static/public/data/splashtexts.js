@@ -30,4 +30,13 @@ var splashtexts = [
     "Join the Aluminum Depot for Windows exploits",
     "Join the Discord for Windows exploits",
     "Click the middle button!",
+    "MINCERAFT",
+    "aluminum depot pretty lit",
+    "you won the lottery!",
+    "sleepy joe",
+    "Have you used our wildcard domains?",
+    "Use the wildcard domains for an unblocked experience!",
+    "abcdefg",
+    "No one will believe you",
+    "Try putting /secret.html and the end of the URL!",
 ]

@@ -102,7 +102,7 @@ var apps = [
       'id': 'snapchat',
       'title': 'Snapchat',
       'url': 'https:web.snapchat.com',
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_RVLVUxInCWLGConZqEjH5vszDE_rYlrAQFPbTy5itN3DlQ6d",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQB1vggZ9ykno5lmGbt2NrNFh2Lkn66W5yOAQU3a1QnzQX3JBLx",
     }
   ]
   

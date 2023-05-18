@@ -102,7 +102,7 @@ var apps = [
       'id': 'snapchat',
       'title': 'Snapchat',
       'url': 'https:web.snapchat.com',
-      "image": "https://static.vecteezy.com/system/resources/previews/018/930/694/original/snapchat-logo-snapchat-icon-transparent-free-png.png",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_RVLVUxInCWLGConZqEjH5vszDE_rYlrAQFPbTy5itN3DlQ6d",
     }
   ]
   

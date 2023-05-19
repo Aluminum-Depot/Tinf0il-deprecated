@@ -78,10 +78,14 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .heading {
+  pointer-events: none; /* gigachad moment */
   position: absolute;
   text-align: center;
   top: 30%;
   width: 100%;
+}
+.heading > button, a {
+  pointer-events: auto !important; /* double gigachad moment */
 }
 .heading h1 {
   color: limegreen;
@@ -90,7 +94,7 @@ body {
 .heading h3 {
   color: wheat;
   font-size: 20px;
-
+}
 canvas {
   display: block;
   vertical-align: bottom;

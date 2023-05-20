@@ -64,6 +64,10 @@ body {
   position: relative;
 }
 
+img.rounded-corners {
+  border-radius: 15px;
+}
+
 /* ---- particles.js container ---- */
 
 #particles-js {

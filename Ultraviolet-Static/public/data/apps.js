@@ -101,8 +101,14 @@ var apps = [
     {
       'id': 'snapchat',
       'title': 'Snapchat',
-      'url': 'https:web.snapchat.com',
+      'url': 'https://web.snapchat.com',
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQB1vggZ9ykno5lmGbt2NrNFh2Lkn66W5yOAQU3a1QnzQX3JBLx",
+    },
+    {
+      'id': 'twitch',
+      'title': 'Twitch',
+      'url': 'https://twitch.tv',
+      "image": "https://cdn.pixabay.com/photo/2021/12/10/16/38/twitch-6860918_1280.png",
     }
   ]
   

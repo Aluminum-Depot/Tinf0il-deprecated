@@ -331,6 +331,12 @@ var games = [
       'url': 'https://agar.io',
       'image': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQF9P7VGEeabiTldpe17vw3R85of7IjFQKxQ85Q7EC6sY3k8cw'
     },
+    {
+      'id': 'roblox',
+      'title': "Roblox",
+      'url': 'https://nowgg.me',
+      'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht'
+    },
   ]
   
   var customgames = JSON.parse(localStorage.getItem("customgames"))

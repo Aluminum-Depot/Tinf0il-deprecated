@@ -334,7 +334,7 @@ var games = [
     {
       'id': 'roblox',
       'title': "Roblox",
-      'url': 'https://nowgg.me',
+      'url': 'https://now.gg',
       'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht'
     },
   ]

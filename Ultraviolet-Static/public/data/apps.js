@@ -72,10 +72,10 @@ var apps = [
       'image': 'https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png'
     },
     {
-      'id': 'Soap2Day',
-      'title': 'Soap2Day',
-      'url': 'https://soap2day.to',
-      'image': 'https://www.apk20.com/_next/image?url=https%3A%2F%2Fplay-lh.googleusercontent.com%2FJKWLyT-irVA2Muvvv9SEm4EoumdawQat-35nqa3qT0nBhxsPd2GFKQqjNGZ6Ab31u50%3Dh250-rw%3Fcompress&w=640&q=100'
+      'id': 'fmovies',
+      'title': 'FMovies',
+      'url': 'https://fmovies.wtf/home',
+      'image': 'https://media.cdnandroid.com/item_images/1388353/imagen-fmovies-stream-movies-tv-0ori.jpg'
     },
     {
       'id': 'coolmathgames',
@@ -100,7 +100,7 @@ var apps = [
     {
       'id': 'snapchat',
       'title': 'Snapchat',
-      'url': 'https://web.snapchat.com',
+      'url': 'https://nowgg.nl/play/Aptoide/1440/aptoide',
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQB1vggZ9ykno5lmGbt2NrNFh2Lkn66W5yOAQU3a1QnzQX3JBLx",
     },
     {

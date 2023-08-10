@@ -146,6 +146,21 @@ canvas {
   border-radius: 0 0 3px 3px;
 }
 
+.section {
+  width: 100vw;
+  height: 86.9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  background: linear-gradient(315deg, #20b2aa 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, #20b2aa 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
 .fa-magnifying-glass {
   color: white;
 }

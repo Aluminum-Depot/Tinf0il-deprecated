@@ -147,6 +147,7 @@ canvas {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .section {
   width: 100vw;
   height: 86.9vh;
@@ -164,6 +165,8 @@ canvas {
 
 =======
 >>>>>>> parent of fcc67d9... why the frick is this here
+=======
+>>>>>>> 42a941f2d4c4b73ee9fe2b6e84b6e106bae88bdc
 .fa-magnifying-glass {
   color: white;
 }
@@ -319,7 +322,11 @@ footer a:hover {
 .credit input:checked ~ pre {
   display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> parent of fcc67d9... why the frick is this here
+=======
+}
+>>>>>>> 42a941f2d4c4b73ee9fe2b6e84b6e106bae88bdc

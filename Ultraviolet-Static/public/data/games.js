@@ -30,7 +30,15 @@ var games = [
       'description': 'A 2 player game where you have to work together using logic and teamwork to get to the finish line.',
       'url': 'https://educationgg-23704.web.app/games/FBWG4-main/index.html',
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       'image': 'http://m.arcadethunder.com/images/icons/fireboy-and-watergirl-4.jpg'
+=======
+      'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRWaerLDpxHaPNdfRCn8XuQosN4Al8tP5Lw&usqp=CAU'
+>>>>>>> parent of fcc67d9 (why the frick is this here)
+=======
+      'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRWaerLDpxHaPNdfRCn8XuQosN4Al8tP5Lw&usqp=CAU'
+>>>>>>> parent of fcc67d9 (why the frick is this here)
 =======
       'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRWaerLDpxHaPNdfRCn8XuQosN4Al8tP5Lw&usqp=CAU'
 >>>>>>> parent of fcc67d9 (why the frick is this here)
@@ -164,7 +172,15 @@ var games = [
       'id': 'minecraft',
       'title': 'Minecraft (Eaglercraft)',
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       'url': 'https://eaglercraft.ru/mc/1.8.8/',
+=======
+      'url': 'https://tinf0il.tech/minecraft.html',
+>>>>>>> parent of fcc67d9 (why the frick is this here)
+=======
+      'url': 'https://tinf0il.tech/minecraft.html',
+>>>>>>> parent of fcc67d9 (why the frick is this here)
 =======
       'url': 'https://tinf0il.tech/minecraft.html',
 >>>>>>> parent of fcc67d9 (why the frick is this here)

@@ -29,7 +29,11 @@ var games = [
       'title': 'Fireboy and Watergirl',
       'description': 'A 2 player game where you have to work together using logic and teamwork to get to the finish line.',
       'url': 'https://educationgg-23704.web.app/games/FBWG4-main/index.html',
+<<<<<<< HEAD
       'image': 'http://m.arcadethunder.com/images/icons/fireboy-and-watergirl-4.jpg'
+=======
+      'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRWaerLDpxHaPNdfRCn8XuQosN4Al8tP5Lw&usqp=CAU'
+>>>>>>> parent of fcc67d9 (why the frick is this here)
     },
     {
       'id': 'osu',
@@ -159,7 +163,11 @@ var games = [
     {
       'id': 'minecraft',
       'title': 'Minecraft (Eaglercraft)',
+<<<<<<< HEAD
       'url': 'https://eaglercraft.ru/mc/1.8.8/',
+=======
+      'url': 'https://tinf0il.tech/minecraft.html',
+>>>>>>> parent of fcc67d9 (why the frick is this here)
       'image': 'https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png'
     },
     {

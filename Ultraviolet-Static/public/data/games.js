@@ -159,7 +159,7 @@ var games = [
     {
       'id': 'minecraft',
       'title': 'Minecraft (Eaglercraft)',
-      'url': 'https://tinf0il.tech/minecraft.html',
+      'url': 'https://eaglercraft.ru/mc/1.8.8/',
       'image': 'https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png'
     },
     {

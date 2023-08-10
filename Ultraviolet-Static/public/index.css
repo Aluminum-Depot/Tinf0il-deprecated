@@ -146,6 +146,7 @@ canvas {
   border-radius: 0 0 3px 3px;
 }
 
+<<<<<<< HEAD
 .section {
   width: 100vw;
   height: 86.9vh;
@@ -161,6 +162,8 @@ canvas {
   background-attachment: fixed;
 }
 
+=======
+>>>>>>> parent of fcc67d9... why the frick is this here
 .fa-magnifying-glass {
   color: white;
 }
@@ -315,4 +318,8 @@ footer a:hover {
 
 .credit input:checked ~ pre {
   display: block;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of fcc67d9... why the frick is this here

@@ -29,7 +29,7 @@ var games = [
       'title': 'Fireboy and Watergirl',
       'description': 'A 2 player game where you have to work together using logic and teamwork to get to the finish line.',
       'url': 'https://educationgg-23704.web.app/games/FBWG4-main/index.html',
-      'image': 'http://m.arcadethunder.com/images/icons/fireboy-and-watergirl-4.jpg'
+      'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRWaerLDpxHaPNdfRCn8XuQosN4Al8tP5Lw&usqp=CAU'
     },
     {
       'id': 'osu',
